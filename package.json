@@ -1,0 +1,18 @@
+{
+  "name": "iot-room-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "express": "^4.17.1",
+    "mqtt": "^4.2.6",
+    "nodemon": "^2.0.7"
+  }
+}
